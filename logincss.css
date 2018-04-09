@@ -1,0 +1,88 @@
+@font-face
+{
+    font-family: 'IRAN Sans',serif;
+    src: url('iransans/IRANSans.ttf');
+}
+
+hr{
+    border: solid 0.5px ;
+    border-color: rgba(222,222,222,100);
+   margin-bottom: 30px;
+
+}
+.title{
+    margin-top: 30%;
+    padding-top: 20px;
+    font-family: IRANSans;
+    font-size: 16px;
+    color: #4B4B4B;
+
+}
+.form-group
+{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top:10px;
+
+}
+.texts{
+    font-family: IRANSans;
+    font-size: 14px;
+    padding-left: 320px;
+    color: #4B4B4B;
+}
+.placeholder_texts{
+    font-family: IRANSans;
+    font-size: 12px;
+    padding-left: 275px;
+    color: rgb(178, 178, 178);
+
+}
+input[type=text] , input[type=password]{
+    width: 80%;
+    padding: 15px 20px;
+    margin: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+   border-radius: 3px;
+}
+button {
+    background-color: #27D9A1;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 10px;
+    border: 1px solid #27D9A1;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 82%;
+    font-family: IRANSans;
+    font-size: 14px;
+}
+button:hover {
+    opacity: 0.8;
+}
+.newbutton{
+    border:none;
+    fill: none;
+    font-family: IRANSans;
+    font-size: 14px;
+    color: #43496a;
+}
+
+.login {
+    border-radius: 3px;
+    background-color: white;
+    width:33%;
+    height: 480px;
+    margin: 24px 0 12px 0;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}

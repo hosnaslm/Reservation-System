@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>people</title>
+    <meta charset="utf-8">
+    <link href="home3.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<script src="home2js.js" rel="script" type="text/javascript"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="topdiv">
+    <div style="background-color: #6f858c ; height: 30px ; float: right ; width: 100%">
+        <a href="#" class="newbutton">خروج</a>
+    </div>
+    <label class="text">حسنا سلیمی </label><br>
+    <label class="text2">سمت :‌ پزشک</label>
+    <label class="text3">hosnaslm@gmail.com</label>
+    <br>
+    <hr>
+    <a href="#" class="icons"> <span class='icon'></span></a>
+    <a href="#" class="icons"> <span class='icon2'></span></a>
+    <a href="#" class="icons"> <span class='icon3'></span></a>
+</div>
+<div class="divvv">
+    <button id="backButton" style="font-family: IRANSans ; margin-left: 13%" type="button" class="btn btn-primary">بازگشت به صفحه اصلی</button>
+    <!--<div class="topdiv">-->
+    <!--<label class="text"> حسنا سلیمی </label>-->
+    <!--</div>-->
+    <label style=" margin-left: 25%;font-family: IRANSans; margin-top: 2% ; font-size: 20px">فروردین</label>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ماه های سال
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button class="dropdown-item" type="button">فروردین</button>
+            <button class="dropdown-item" type="button">اردیبهشت</button>
+            <button class="dropdown-item" type="button">خرداد</button>
+            <button class="dropdown-item" type="button">تیر</button>
+            <button class="dropdown-item" type="button">مرداد</button>
+            <button class="dropdown-item" type="button">شهریور</button>
+            <button class="dropdown-item" type="button">مهر</button>
+            <button class="dropdown-item" type="button">آبان</button>
+            <button class="dropdown-item" type="button">آذر</button>
+            <button class="dropdown-item" type="button">دی</button>
+            <button class="dropdown-item" type="button">بهمن</button>
+            <button class="dropdown-item" type="button">اسفند</button>
+        </div>
+    </div>
+    <div id="peopleCards">
+    <div  class="list-group">
+        <button  type="button" class="list-group-item list-group-item-action active ">
+            ۱۳۹۷/۱/۱
+        </button>
+        <button id = "testtime" type="button" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#exampleModalCenter">ساعت ۱۲ تا ۱</button>
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">رزرو</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        آیا این زمان را میخواهید؟
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">خیر</button>
+                        <button type="button" id="testyes" class="btn btn-primary" data-dismiss="modal">بله</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button style="background-color: rgba(0,123,255,0.17)" type="button" class="list-group-item list-group-item-action" disabled>ساعت ۱ تا ۲<br>خانم موسوی</button>
+        <button type="button" class="list-group-item list-group-item-action" data-toggle="modal" data-target="#exampleModalCenter1">ساعت ۲ تا ۳</button>
+        <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle1">رزو</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        آیا این زمان را میخواهید؟
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">خیر</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">بله</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="list-group-item list-group-item-action" >ساعت ۴ تا ۵</button>
+    </div>
+    <div  class="list-group">
+        <button  type="button" class="list-group-item list-group-item-action active ">
+            ۱۳۹۷/۱/۳
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۱۲ تا ۱</button>
+        <button style="background-color: rgba(0,123,255,0.17)" type="button" class="list-group-item list-group-item-action" disabled>ساعت ۱ تا ۲<br>خانم موسوی<</button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۲ تا ۳</button>
+        <button type="button" class="list-group-item list-group-item-action" > ساعت ۴ تا ۵</button>
+    </div>
+    <div  class="list-group">
+        <button  type="button" class="list-group-item list-group-item-action active ">
+            ۱۳۹۷/۱/۴
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۱۲ تا ۱</button>
+        <button style="background-color: rgba(0,123,255,0.17)" type="button" class="list-group-item list-group-item-action" disabled>ساعت ۱ تا ۲<br>خانم موسوی</button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۲ تا ۳</button>
+        <button type="button" class="list-group-item list-group-item-action" >ساعت ۴ تا ۵</button>
+    </div>
+    <div  class="list-group">
+        <button  type="button" class="list-group-item list-group-item-action active ">
+            ۱۳۹۷/۱/۵
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۱۲ تا ۱</button>
+        <button style="background-color: rgba(0,123,255,0.17)" type="button" class="list-group-item list-group-item-action" disabled>ساعت ۱ تا ۲<br>خانم موسوی</button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۲ تا ۳</button>
+        <button type="button" class="list-group-item list-group-item-action" >ساعت ۴ تا ۵</button>
+    </div>
+    <div  class="list-group">
+        <button  type="button" class="list-group-item list-group-item-action active ">
+            ۱۳۹۷/۱/۶
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۱۲ تا ۱</button>
+        <button style="background-color: rgba(0,123,255,0.17)" type="button" class="list-group-item list-group-item-action" disabled>ساعت ۱ تا ۲<br>خانم موسوی<</button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۲ تا ۳</button>
+        <button type="button" class="list-group-item list-group-item-action" >ساعت ۴ تا ۵</button>
+    </div>
+    <div  class="list-group">
+        <button  type="button" class="list-group-item list-group-item-action active ">
+            ۱۳۹۷/۱/۸
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۱۲ تا ۱</button>
+        <button style="background-color: rgba(0,123,255,0.17)" type="button" class="list-group-item list-group-item-action" disabled>ساعت ۱ تا ۲<br>خانم موسوی<</button>
+        <button type="button" class="list-group-item list-group-item-action">ساعت ۲ تا ۳</button>
+        <button type="button" class="list-group-item list-group-item-action" >ساعت ۴ تا ۵</button>
+    </div>
+    </div>
+</div>
+<script type="text/javascript" src="people.js"></script>
+</body>
+</html>

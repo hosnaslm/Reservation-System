@@ -1,0 +1,36 @@
+@font-face
+{
+    font-family: 'IRAN Sans',serif;
+    src: url('iransans/IRANSans.ttf');
+}
+
+.maindiv
+{
+    width: 100%;
+}
+.rightdiv{
+    font-family: IRANSans;
+    /*border-left: solid;*/
+    border-color: #970d09;
+    padding-right: 0px;
+    width: 10%;
+    float: right;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.leftdiv
+{
+    background-color: #9600F0;
+    width: 50%;
+    float: left;
+    height: 100vh;
+
+}
+.texts{
+    font-family: IRANSans;
+    font-size: 14px;
+    padding-right: 50%;
+    color: #4B4B4B;
+
+}

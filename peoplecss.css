@@ -1,0 +1,84 @@
+@font-face
+{
+    font-family: 'IRAN Sans',serif;
+    src: url('iransans/IRANSans.ttf');
+}
+.hr{
+    color: #787878;
+}
+.bu{
+    float: right;
+    padding-rig: 10%;
+
+}
+.reservebutton {
+    padding-left: 100%;
+}
+.text{
+    padding-top: 5%;
+    padding-left: 40%;
+    font-size: 18px;
+}
+.text2{
+    padding-left: 40%;
+    color: #5a6268;
+    font-size: 15px;
+}
+.text3{
+    padding-left: 30%;
+    font-size: 13px;
+    color: #5a6268;
+}
+.divvv{
+    width: 80%;
+    float: right;
+}
+.navbar{
+    font-family: "IRAN Sans";
+    padding-bottom: 100px;
+    padding-left: 10px;
+}
+.topdiv{
+    float: right;
+    font-family: IRANSans;
+    /*border-left: solid;*/
+    /*border-color: #970d09;*/
+    padding-right: 0px;
+    width: 20%;
+    background-color: #dbe3e9;
+    height: 100vh;
+}
+.dropdown{
+    font-family: IRANSans;
+    margin-right: 0px;
+    margin-left: 970px;
+    margin-top: 20px;
+    padding-right: 0px;
+}
+.dropdown-menu{
+    float: right;
+    padding-right: 0px;
+}
+.card{
+    font-family: IRANSans;
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+}
+.form-inline{
+    float: right;
+}
+.list-group{
+    width: 300px;
+    font-family: IRANSans;
+    float: right;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+.newbutton{
+    padding-left: 80%;
+    color: #0D3349;
+}
+/*.modal-body{*/
+/*height: 400px;*/
+/*}*/
